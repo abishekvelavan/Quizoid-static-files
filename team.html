@@ -32,12 +32,6 @@
 <body>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/favicon.png" alt=""></a>
-      <a data-aos="fade-up" data-aos-delay="200" href="http://quizoid-login.netlify.app" class="btn-get-started scrollto">Login >></a>
-    </div>
-  </section><!-- End Hero -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
@@ -49,7 +43,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
           <li style="margin-left: 5%; border: none;"><input type = "button" value = "Categories" onclick = "getConfirmation();" onsubmit="http://quizoid-login.netlify.app" /></form></li> 
           <li><a  href="http://quizoid-lead.netlify.app">Leaderboard</a></li>
           <li><a  href="http://quizoid-login.netlify.app">Login</a></li>
@@ -71,22 +65,22 @@
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
                 <a class="nav-link" href="instructions.html">
-                  <h4>Instructions</h4>
+                  <h4><i class="bx bx-book"></i> Instructions</h4>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link"  href="https://quizoid-login.netlify.app/update-profile">
-                  <h4>Settings</h4>
+                  <h4><i class="bx bx-cog"></i> Settings</h4>
                 </a>
               </li>
               <li class="nav-item mt-2">
-                <a class="nav-link"  href="team.html">
-                  <h4>Team</h4>
+                <a class="nav-link"   href="team.html">
+                  <h4><i class="bx bx-group"></i> Team</h4>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link"  href="contact.html">
-                  <h4>Contact</h4>
+                  <h4><i class="bx bx-message-rounded"></i> Contact</h4>
                 </a>
               </li>
             </ul>
@@ -94,13 +88,60 @@
         </div>
 
       </div>
-    </section><!-- End Featured Section -->
+    </section>
 
-  </main><!-- End #main -->
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
 
-  <!-- ======= Footer ======= -->
+        <div class="section-title" data-aos="fade-up">
+          <h2>Team</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="zoom-in">
+              <div class="member-img">
+                <img src="assets/img/team/undraw_male_avatar_323b.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Abishek Velavan D</h4>
+                <span>3 CSE A</span>
+                <p>KPRIET</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="zoom-in">
+              <div class="member-img">
+                <img src="assets/img/team/undraw_male_avatar_323b.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Harikrishna C</h4>
+                <span>3 CSE A</span>
+                <p>KPRIET</p>
+              </div>
+            </div>
+          </div><div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="zoom-in">
+              <div class="member-img">
+                <img src="assets/img/team/undraw_male_avatar_323b.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Gokul B</h4>
+                <span>3 BME</span>
+                <p>KPRIET</p>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    
   <footer id="footer">
-
     <div class="footer-top">
 
       <div class="container">
@@ -115,6 +156,7 @@
 
       </div>
     </div>
+    
 
   </footer><!-- End Footer -->
 
