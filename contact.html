@@ -174,7 +174,7 @@ function postToGoogle() {
                 var field1 = $("#nameField").val();
                 var field2 = $("#emailField").val();
                 var field3 = $("#mobField").val();
-                var field4 = $("#cinema").text();
+                var field4 = $("#cinema").vak();
  				
 				if(field1 == ""){
 					alert('Please Fill Your Name');
@@ -186,9 +186,14 @@ function postToGoogle() {
 					document.getElementById("emailField").focus();
 					return false;
 				}
-				if(field3 == "" || field3.length > 50 || field3.length < 3){
+				if(field3 == ""){
 					alert('Please Fill Your Subject');
 					document.getElementById("mobField").focus();
+					return false;
+				}
+				if(field4 == ""){
+					alert('Please Fill Your message');
+					document.getElementById("cinema").focus();
 					return false;
 				}
 
